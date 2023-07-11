@@ -72,7 +72,7 @@
 .hotdeal-section {
     display: flex;
     border-radius: 8px;
-    width: 1932px;
+    width: 2018px;
     height: 620px;
     border-radius: 8px;
     background: rgba(29, 197, 175, 0.05);
@@ -244,8 +244,8 @@
 /* Footer */
 .footer {
     background-color: #111010;
-    width: 1935px;
-    height: 500px;
+    width: 2018px;
+    height: 400px;
 }
 
 
