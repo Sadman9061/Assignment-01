@@ -1,0 +1,120 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* header share style */
+.header-container {
+    height: 80vh; 
+    background-color: rgba(229, 84, 115, 0.10); 
+    display: flex;
+    align-items: center;
+    
+    
+
+
+}
+
+/* text style */
+.title {
+    color: #272727;
+    font-family: Lato;
+    font-size: 50px;
+    font-style: bold;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.para {
+    padding: 10px 0px;
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.text-container {
+     padding: 0px 0px 0px 80px;
+     width: 50%;
+     margin: auto;
+     text-align: left;
+
+}
+
+/* image settings */
+ .img {
+    padding: 20px 80px 0px 0px;
+
+   
+
+ }
+ 
+ /* button styles */
+ .btn-primary {
+    color: #FFF;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 8px;
+    background: #E55473;
+    display: inline-flex;
+    padding: 20px 43px;
+    align-items: flex-start;
+    gap: 10px;
+    border: none;
+ }
+ .btn-primary:hover {
+    background-color: rgb(250, 99, 79);
+ }
+ /* header part end */
+ /* hot deal section */
+.hotdeal-section {
+    display: flex;
+    border-radius: 8px;
+    width: 1922px;
+    height: 620px;
+    margin-top: 1941px;
+    border-radius: 8px;
+    background: rgba(29, 197, 175, 0.05);
+
+}
+/* img section */
+.hotdeal-img{
+    width: 50px;
+    height: 50px;
+    padding: 100px 500px 100px 180px;
+    
+}
+/* text section */
+.hotdeal-text{
+    text-align: center;
+    padding: 0px 0px 0px 80px;
+    width: 50%;
+    margin: auto;
+    
+}
+.s1-head{
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.pink{
+    color: #E55473;
+}
+.para-2{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 10px 0px;
+}
