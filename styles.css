@@ -72,11 +72,13 @@
 .hotdeal-section {
     display: flex;
     border-radius: 8px;
-    width: 1922px;
+    width: 1932px;
     height: 620px;
     margin-top: 1941px;
     border-radius: 8px;
     background: rgba(29, 197, 175, 0.05);
+    border-top: 2px solid rgb(151, 31, 135);
+    border-bottom: 2px solid rgb(151, 31, 135);
 
 }
 /* img section */
@@ -136,13 +138,13 @@
     font-weight: 400;
     line-height: 30px;
 }
- .Feature-img {
+  .Feature-img {
     
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 70px 0px 0px 0px;
- }
+ } 
  .f2 {
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
@@ -183,3 +185,97 @@
     text-decoration-line: underline;
     margin-top: 10px;
  }
+ /* Instragram */
+.Instra-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 240px 0px 240px;
+
+}
+.f5 { 
+    margin-right: 30px;
+
+}
+.f8 {
+    margin-left: 30px;
+}
+.f6 {
+    margin-right: 30px;
+}
+.Feature-text {
+    margin-top: 90px;
+    margin-bottom: 50px;
+}
+#p3 {
+    margin-top: 24px;
+} 
+
+/* Background section */
+
+.bg {
+      width: 1440px;
+    height: 449px; 
+    margin-top: 128px; 
+    background-image: url("Flower-Asset/Rectangle\ 9.png");
+    background-repeat: no-repeat;
+    margin-left: 240px;
+    margin-right: 240px;
+    padding-top: 120px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: rgba(39, 39, 39, 0.6);
+     
+
+} 
+.email {
+    width: 590px;
+    height: 60px;
+    padding-left: 20px;
+}
+#p5 {
+
+    margin-bottom: 15px;
+
+}
+#btn {
+    margin-left: 10px;
+}
+
+/* Footer */
+.footer {
+    background-color: #111010;
+    width: 1935px;
+    height: 500px;
+}
+
+
+#h1 {
+    color: white;
+    font-size: 50px;
+    font-weight: 800;
+    padding-top: 120px;
+    padding-bottom: 10px;
+    
+    
+}
+
+
+
+#k1 {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 10px;
+    padding-bottom: 50px;
+
+}
+#p1 {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    
+}
