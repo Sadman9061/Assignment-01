@@ -1,6 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-family: Lato;
 }
 
 /* header share style */
@@ -18,7 +19,7 @@
 /* text style */
 .title {
     color: #272727;
-    font-family: Lato;
+    
     font-size: 50px;
     font-style: bold;
     font-weight: 800;
@@ -28,7 +29,7 @@
 .para {
     padding: 10px 0px;
     color: rgba(39, 39, 39, 0.60);
-    font-family: Lato;
+    
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -53,17 +54,13 @@
  
  /* button styles */
  .btn-primary {
-    color: #FFF;
-    font-family: Lato;
+    color: #FFF; 
     font-size: 20px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
     border-radius: 8px;
     background: #E55473;
     display: inline-flex;
     padding: 20px 43px;
-    align-items: flex-start;
     gap: 10px;
     border: none;
  }
@@ -99,11 +96,8 @@
 }
 .s1-head{
     color: #272727;
-    font-family: Lato;
     font-size: 40px;
-    font-style: normal;
     font-weight: 800;
-    line-height: normal;
 }
 .pink{
     color: #E55473;
@@ -111,12 +105,81 @@
 .para-2{
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
-    font-family: Lato;
     font-size: 18px;
-    
     font-weight: 400;
     line-height: 30px;
     padding: 10px 0px;
     width: 50%;
     margin: auto;
 }
+/* Feature section */
+.Feature-section {
+    
+    text-align: center;
+    justify-content: center;
+    padding: 100px 0px 0px 0px;
+    
+
+}
+.title-2 {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    
+}
+
+.para-3 {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+ .Feature-img {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 70px 0px 0px 0px;
+ }
+ .f2 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    width: 330px;
+    height: 450px;
+    padding: 50px 50px 0px 50px; 
+    
+    
+ } 
+ .f3 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    width: 330px;
+    height: 450px;
+    padding: 50px 50px 0px 50px; 
+    margin: 0px 20px 0px 20px;
+    
+    
+ }
+ .f4 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    width: 330px;
+    height: 450px;
+    padding: 50px 50px 0px 50px; 
+ }
+
+
+ .flower-name {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+    margin-top: 10px;
+ }
